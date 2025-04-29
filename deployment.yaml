@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: todo-web
-        image: acrdigitalgarage01.azurecr.io/todo-web:latest
+        image: acrdigitalgarage01.azurecr.io/todo-web:2
         imagePullPolicy: Always
         ports:
         - containerPort: 80
